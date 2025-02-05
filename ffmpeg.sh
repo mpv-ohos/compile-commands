@@ -21,8 +21,8 @@ export PKG_CONFIG_PATH="/data/ohos/tpc_c_cplusplus/lycium/usr/alsa-lib/arm64-v8a
     --ranlib=/data/ohos/ohos_sdk/linux/native/llvm/bin/llvm-ranlib \
     --sysroot=/data/ohos/ohos_sdk/linux//native/sysroot \
     --host-os=linux \
-    --extra-cflags="-fPIC -D__MUSL__=1" \
-    --extra-cxxflags="-fPIC -D__MUSL__=1" \
+    --host-cflags="-fPIC -D__MUSL__=1" \
+    --host-cppflags="-fPIC -D__MUSL__=1" \
     --host-ldflags="/data/ohos/ohos_sdk/linux/native/sysroot/usr/lib/aarch64-linux-ohos" \
     --disable-large-tests --enable-static --enable-shared --disable-doc --disable-htmlpages \
     --target-os=linux --disable-optimizations > arm64-v8a-build/build.log 2>&1
