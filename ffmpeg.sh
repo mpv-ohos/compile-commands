@@ -4,13 +4,13 @@ export PKG_CONFIG_PATH="/data/ohos/tpc_c_cplusplus/lycium/usr/alsa-lib/arm64-v8a
     --enable-frei0r --enable-gmp --enable-lcms2 --enable-libaom --enable-libass --enable-libbluray --enable-libshaderc \
     --enable-libcodec2 --enable-libdav1d --enable-libfontconfig --enable-libfreetype --enable-libharfbuzz --enable-libshine \
     --enable-libglslang --enable-libgme --enable-libkvazaar --enable-libopencv --enable-libopus --enable-libplacebo \
-    --enable-libpulse --enable-libssh --enable-libtwolame --enable-libvidstab --enable-libvpx --enable-libopenjpeg \
+    --enable-libpulse --enable-libssh --enable-libtwolame --enable-libvidstab --enable-libvpx --enable-libopenjpeg --enable-libfdk-aac \
     --enable-libwebp --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxeve --enable-libxevd --enable-network \
     --enable-libxml2 --enable-lv2 --enable-libmysofa --enable-openal --enable-openssl --enable-pocketsphinx --enable-asm \
     --disable-nvdec --disable-nvenc --disable-libdrm --disable-ffnvcodec --disable-cuda-llvm --disable-cuvid --enable-neon \
     --disable-d3d11va --disable-d3d12va --disable-dxva2 --disable-amf --disable-audiotoolbox --disable-x86asm --enable-protocols \
     --enable-cross-compile --arch=aarch64 \
-    --enable-gpl --enable-version3 \
+    --enable-gpl --enable-version3 --enable-nonfree \
     --ar=/data/ohos/ohos_sdk/linux/native/llvm/bin/llvm-ar \
     --as=/data/ohos/ohos_sdk/linux/native/llvm/bin/llvm-as \
     --nm=/data/ohos/ohos_sdk/linux/native/llvm/bin/llvm-nm \
