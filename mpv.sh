@@ -1,0 +1,3 @@
+meson arm64-v8a-build --cross-file cross-file.txt --prefix=/data/ohos/tpc_c_cplusplus/lycium/usr/mpv/arm64-v8a -Dlibmpv=true -Dcplugins=disabled -Ddvbin=disabled -Diconv=enabled -Djavascript=disabled -Djpeg=enabled -Dlcms2=enabled -Dlibavdevice=enabled -Dlibbluray=disabled -Dlua=disabled -Duchardet=enabled -Dzlib=enabled -Dwin32-threads=disabled -Dalsa=enabled -Dopenal=enabled -Dpulse=enabled -Dopensles=disabled -Degl=enabled -Dshaderc=disabled -Dvulkan=enabled > arm64-v8a-build/build.log 2>&1
+ninja -v -C arm64-v8a-build >> arm64-v8a-build/build.log 2>&1
+ninja -v -C arm64-v8a-build install >> arm64-v8a-build/build.log 2>&1
